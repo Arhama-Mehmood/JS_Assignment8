@@ -1,0 +1,132 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+}
+.body{
+    background-image: url(./pookie\ bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+#main {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    background-color: #FFB3C6;
+    border-radius: 15px;
+    box-shadow: 10px 5px 15px rgb(186, 168, 168);
+}
+
+.smallBox {
+    background-color: aqua;
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px pink;
+    background-color: #e7708e;
+    border: 2px solid rgb(255, 251, 252);
+    margin: 20px 20px 20px 125px;   
+}
+.outer{
+    display: flex;
+}
+.circle {
+    background-color: aqua;
+    width: 15px;
+    height: 15px;
+    border-radius: 55px;
+    box-shadow: 0px 5px 15px pink;
+    background-color: #e7708e;
+    border: 2px solid rgb(254, 250, 251);
+    margin: 25px 0px 0px 19px;   
+}
+
+.btn:hover{
+    background-color: #e12b58;
+}
+
+.equal:hover{
+    background-color: #54484b;
+    color: white;
+}
+.mainInput {
+    width: 300px;
+    height: 80px;
+    margin: 0px 20px 20px 20px;
+    padding-right: 5px;
+    border-radius: 10px;
+    border: 4px solid #fda9be;
+    color: rgb(206, 122, 136);
+    font-size: xx-large;
+    box-shadow: 0px 0px 10px rgb(248, 135, 154);
+    text-align: end;
+
+}
+
+.mainInput:focus {
+    outline: none;
+}
+
+.numSection {
+    margin: 0px 20px 20px 20px;
+}
+
+.btn {
+    padding: 15px;
+    margin: 5px;
+    font-size: large;
+    border-radius: 5px;
+    background-color: #facbd7;
+    box-shadow: 0px 0px 10px rgb(208, 90, 110);
+    border: 1px solid #FF8FAB;
+    cursor: pointer;
+    /* color: white; */
+
+}
+
+.num {
+    background-color: #e7708e;
+    box-shadow: 0px 0px 10px rgb(164, 129, 135);
+    color: white;
+}
+
+.spc {
+    padding-right: 35px;
+}
+
+.dlt {
+    padding-left: 10px;
+}
+
+.x {
+    padding-right: 20px;
+    padding-left: 18px;
+}
+
+.dvd {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.plus {
+    padding-right: 20px;
+    padding-left: 22px;
+}
+
+.minus {
+    padding-right: 20px;
+    padding-left: 22px;
+}
+
+.equal {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.dot {
+    padding-right: 18px;
+    padding-left: 16px;
+}

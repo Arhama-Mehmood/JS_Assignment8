@@ -1,11 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Calculator</title>
 </head>
+
 <body>
-    <script src="./app.js"></script>
+    <div class="body">
+        <div id="main">
+            <div class="outer">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="smallBox"></div>
+            </div>
+            <div>
+                <input type="text" class="mainInput" id="userInput">
+            </div>
+            <div class="numSection">
+                <div>
+                    <button type="button" class="btn num" value="7" onclick="writeNum(7)">7</button>
+                    <button class="btn num" value="8" onclick="writeNum(8)">8</button>
+                    <button class="btn num" value="9" onclick="writeNum(9)">9</button>
+                    <button class="btn" value="%" onclick="remainer()">%</button>
+                    <button class="btn" value="Sqr" onclick="square()">Sqr</button>
+                </div>
+                <div>
+                    <button class="btn num" value="4" onclick="writeNum(4)">4</button>
+                    <button class="btn num" value="5" onclick="writeNum(5)">5</button>
+                    <button class="btn num" value="6" onclick="writeNum(6)">6</button>
+                    <button class="btn x" value="x" onclick="multiply()">x</button>
+                    <button class="btn dvd" value="/" onclick="divide()">/</button>
+                </div>
+                <div>
+                    <button class="btn num" value="1" onclick="writeNum(1)">1</button>
+                    <button class="btn num" value="2" onclick="writeNum(2)">2</button>
+                    <button class="btn num" value="3" onclick="writeNum(3)">3</button>
+                    <button class="btn minus" value="-" onclick="subtract()">-</button>
+                    <button class="btn plus" value="+" onclick="add()">+</button>
+                </div>
+                <div>
+                    <button class="btn num" value="0" onclick="writeNum(0)">0</button>
+                    <button class="btn num" value="C" onclick="clearInput()">C</button>
+                    <button class="btn num dot" value="." onclick="writeNum('.')">.</button>
+                    <button class="btn equal" value="=" onclick="calculateResult()">=</button>
+                    <button class="btn dlt" value="Del" onclick="deleteLastChar()">Del</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="app.js"></script>
 </body>
+
 </html>
